@@ -12,7 +12,6 @@ jobs:
   performance-testing:
     runs-on: ubuntu-latest
 
-    if: ${{ github.repository_owner != 'h1418' }}
 
     strategy:
       fail-fast: false
